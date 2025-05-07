@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Bubblegum+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Powerpuff Girls Theme Colors */
+:root {
+  --background: 0 0% 98%;
+  --foreground: 20 14.3% 4.1%;
+  
+  /* Powerpuff Girls Colors */
+  --ppg-pink: 340 82% 76%;      /* Blossom's color */
+  --ppg-blue: 195 100% 77%;     /* Bubbles' color */
+  --ppg-green: 120 45% 58%;     /* Buttercup's color */
+  --ppg-black: 0 0% 13%;        /* Outline color */
+  --ppg-light: 45 100% 96%;     /* Light background */
+  
+  /* UI Colors */
+  --morning-dew: 220 50% 98%;
+  --overcast: 220 6% 90%;
+  --early-dusk: 225 6% 80%;
+  --almond-dust: 35 15% 89%;
+  
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 220 6% 90%;
+  --input: 220 6% 90%;
+  --primary: 340 82% 76%;       /* Using Blossom's pink as primary */
+  --primary-foreground: 211 100% 99%;
+  --secondary: 195 100% 77%;    /* Using Bubbles' blue as secondary */
+  --secondary-foreground: 24 9.8% 10%;
+  --accent: 120 45% 58%;        /* Using Buttercup's green as accent */
+  --accent-foreground: 24 9.8% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 20 14.3% 4.1%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 207 90% 54%;
+  --primary-foreground: 211 100% 99%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 212 15% 69%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-[#FFF9E6] text-[#333333] font-inter;
+  }
+  
+  /* Button styles */
+  button, .button {
+    @apply rounded-full border-2 border-[#333] shadow-md font-bubblegum transition-all;
+  }
+  
+  /* Link styles */
+  a {
+    @apply transition-colors;
+  }
+  
+  /* Heading styles */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bubblegum;
+  }
+  
+  /* Font classes */
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .font-bubblegum {
+    font-family: 'Bubblegum Sans', cursive;
+  }
+  
+  /* Powerpuff Girls theme styles */
+  .ppg-shadow {
+    text-shadow: 2px 2px 0 #000;
+  }
+  
+  .ppg-border {
+    @apply border-2 border-[#333] rounded-lg shadow-md;
+  }
+  
+  /* Character-specific styles */
+  .blossom-bg {
+    @apply bg-[#FF9ED2];
+  }
+  
+  .bubbles-bg {
+    @apply bg-[#7BDEFF];
+  }
+  
+  .buttercup-bg {
+    @apply bg-[#83D475];
+  }
+  
+  .blossom-text {
+    @apply text-[#FF9ED2];
+  }
+  
+  .bubbles-text {
+    @apply text-[#7BDEFF];
+  }
+  
+  .buttercup-text {
+    @apply text-[#83D475];
+  }
+  
+  /* Card styles */
+  .ppg-card {
+    @apply bg-white rounded-lg border-2 border-[#333] shadow-md overflow-hidden;
+  }
+  
+  /* Input styles */
+  input, select, textarea {
+    @apply border-2 border-[#333] rounded-md;
+  }
+}
+
+@layer components {
+  .product-card {
+    @apply transition duration-300 ease-in-out;
+  }
+  .product-card:hover {
+    @apply transform -translate-y-1 shadow-lg;
+  }
+  
+  .size-option input:checked + label {
+    @apply bg-[#E8E4DD] border-[#333333];
+  }
+  
+  .color-option input:checked + label {
+    @apply outline outline-2 outline-[#333333] outline-offset-2;
+  }
+}

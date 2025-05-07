@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <circle cx="100" cy="100" r="80" fill="#FF9ED2" />
+  <text x="100" y="115" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white" font-weight="bold">Blossom</text>
+  
+  <circle cx="200" cy="100" r="80" fill="#7BDEFF" />
+  <text x="200" y="115" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white" font-weight="bold">Bubbles</text>
+  
+  <circle cx="300" cy="100" r="80" fill="#83D475" />
+  <text x="300" y="115" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white" font-weight="bold">Buttercup</text>
+  
+  <text x="200" y="30" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" fill="#333333" font-weight="bold">The Powerpuff Girls</text>
+</svg>

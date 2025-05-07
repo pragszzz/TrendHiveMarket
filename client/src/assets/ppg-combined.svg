@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Canvas background -->
+  <rect x="0" y="0" width="600" height="600" fill="#F9F4E7" opacity="0.5"/>
+  
+  <!-- CN Logo -->
+  <g transform="translate(500, 80) scale(0.5)">
+    <rect width="50" height="50" fill="#000000"/>
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">CN</text>
+  </g>
+  
+  <!-- PPG Logo -->
+  <g transform="translate(300, 120)">
+    <!-- Shadow for text -->
+    <text x="-240" y="0" font-family="Arial, sans-serif" font-size="70" font-weight="bold" text-anchor="start" fill="#000000" opacity="0.3">the</text>
+    <text x="-250" y="70" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="start" fill="#000000" opacity="0.3">POWERPUFF</text>
+    <text x="-100" y="140" font-family="Arial, sans-serif" font-size="70" font-weight="bold" text-anchor="start" fill="#000000" opacity="0.3">GIRLS</text>
+    
+    <!-- Pink text for "the" and "POWERPUFF" -->
+    <text x="-245" y="-5" font-family="Arial, sans-serif" font-size="70" font-weight="bold" text-anchor="start" fill="#FF9ED2">the</text>
+    <text x="-255" y="65" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="start" fill="#FF9ED2">POWERPUFF</text>
+    
+    <!-- Blue text for "GIRLS" -->
+    <text x="-105" y="135" font-family="Arial, sans-serif" font-size="70" font-weight="bold" text-anchor="start" fill="#7BDEFF">GIRLS</text>
+    
+    <!-- Star -->
+    <polygon points="150,135 160,155 185,160 170,180 175,205 150,195 125,205 130,180 115,160 140,155" fill="#FFDE59" stroke="#333" stroke-width="1" />
+  </g>
+  
+  <!-- Rainbow Beam -->
+  <g transform="translate(300, 400)">
+    <defs>
+      <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#FF9ED2" />
+        <stop offset="25%" stop-color="#FFDE59" />
+        <stop offset="50%" stop-color="#7BDEFF" />
+        <stop offset="75%" stop-color="#83D475" />
+        <stop offset="100%" stop-color="#FF9ED2" />
+      </linearGradient>
+    </defs>
+    <path d="M-200,160 L-100,-50 L100,-50 L200,160 Z" fill="url(#rainbow)" opacity="0.6" />
+  </g>
+  
+  <!-- Powerpuff Girls -->
+  <g transform="translate(300, 380)">
+    <!-- Bubbles -->
+    <g transform="translate(-100, 0)">
+      <circle cx="0" cy="0" r="50" fill="#7BDEFF" stroke="#000" stroke-width="3" />
+      <ellipse cx="-15" cy="-10" rx="15" ry="18" fill="white" />
+      <circle cx="-15" cy="-10" r="7" fill="#000" />
+      <ellipse cx="15" cy="-10" rx="15" ry="18" fill="white" />
+      <circle cx="15" cy="-10" r="7" fill="#000" />
+      <path d="M-15,15 Q0,25 15,15" stroke="#000" stroke-width="3" fill="none" />
+      <path d="M-25,-35 L-35,-50 L-15,-45 Z" fill="#FFDE59" /> <!-- Hair -->
+      <path d="M25,-35 L35,-50 L15,-45 Z" fill="#FFDE59" /> <!-- Hair -->
+    </g>
+    
+    <!-- Blossom -->
+    <g transform="translate(0, -50)">
+      <circle cx="0" cy="0" r="50" fill="#FF9ED2" stroke="#000" stroke-width="3" />
+      <ellipse cx="-15" cy="-10" rx="15" ry="18" fill="white" />
+      <circle cx="-15" cy="-10" r="7" fill="#000" />
+      <ellipse cx="15" cy="-10" rx="15" ry="18" fill="white" />
+      <circle cx="15" cy="-10" r="7" fill="#000" />
+      <path d="M-15,15 Q0,25 15,15" stroke="#000" stroke-width="3" fill="none" />
+      <path d="M-25,-35 L-35,-55 L-15,-45 Z" fill="#FF7BBF" /> <!-- Hair -->
+      <path d="M25,-35 L35,-55 L15,-45 Z" fill="#FF7BBF" /> <!-- Hair -->
+    </g>
+    
+    <!-- Buttercup -->
+    <g transform="translate(100, 0)">
+      <circle cx="0" cy="0" r="50" fill="#83D475" stroke="#000" stroke-width="3" />
+      <ellipse cx="-15" cy="-10" rx="15" ry="18" fill="white" />
+      <circle cx="-15" cy="-10" r="7" fill="#000" />
+      <ellipse cx="15" cy="-10" rx="15" ry="18" fill="white" />
+      <circle cx="15" cy="-10" r="7" fill="#000" />
+      <path d="M-15,15 Q0,20 15,15" stroke="#000" stroke-width="3" fill="none" />
+      <path d="M-25,-35 L-30,-50 L-15,-40 Z" fill="#5BB04D" /> <!-- Hair -->
+      <path d="M25,-35 L30,-50 L15,-40 Z" fill="#5BB04D" /> <!-- Hair -->
+    </g>
+  </g>
+  
+  <!-- Hearts and Stars -->
+  <g>
+    <polygon points="100,500 110,520 130,525 115,540 120,560 100,550 80,560 85,540 70,525 90,520" fill="#FFDE59" />
+    <polygon points="500,500 510,520 530,525 515,540 520,560 500,550 480,560 485,540 470,525 490,520" fill="#FFDE59" />
+    <polygon points="300,200 310,220 330,225 315,240 320,260 300,250 280,260 285,240 270,225 290,220" fill="#FFDE59" />
+    
+    <path d="M150,450 C150,430 165,415 180,415 C195,415 210,430 210,450 C210,500 150,510 150,510 C150,510 150,500 150,450 Z" fill="#FF5555" />
+    <path d="M450,450 C450,430 465,415 480,415 C495,415 510,430 510,450 C510,500 450,510 450,510 C450,510 450,500 450,450 Z" fill="#FF5555" />
+  </g>
+  
+  <!-- TM & © Text -->
+  <text x="10" y="590" font-family="Arial, sans-serif" font-size="12" fill="#333">TM & © 2024 Cartoon Network</text>
+  
+  <!-- Super Collection Tag -->
+  <g transform="translate(300, 550)">
+    <rect x="-120" y="-20" width="240" height="40" rx="8" ry="8" fill="#83D475" stroke="#333" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Super Collection Summer 2024</text>
+  </g>
+</svg>

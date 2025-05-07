@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400">
+  <!-- Linen Dress -->
+  <path d="M150,40 L120,70 L120,350 L180,350 L180,70 Z" fill="#e8f4ff" stroke="#333" stroke-width="2"/>
+  
+  <!-- Shoulders/straps -->
+  <path d="M120,70 L100,50 L70,70" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M180,70 L200,50 L230,70" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <!-- Waistline -->
+  <path d="M120,180 L180,180" stroke="#333" stroke-width="2" stroke-dasharray="4,2"/>
+  
+  <!-- Bottom flare -->
+  <path d="M120,350 L90,350" stroke="#333" stroke-width="2"/>
+  <path d="M180,350 L210,350" stroke="#333" stroke-width="2"/>
+  
+  <!-- Pattern elements -->
+  <circle cx="130" cy="120" r="3" fill="#7BDEFF"/>
+  <circle cx="150" cy="130" r="3" fill="#7BDEFF"/>
+  <circle cx="170" cy="120" r="3" fill="#7BDEFF"/>
+  <circle cx="140" cy="220" r="3" fill="#7BDEFF"/>
+  <circle cx="160" cy="230" r="3" fill="#7BDEFF"/>
+  <circle cx="150" cy="260" r="3" fill="#7BDEFF"/>
+  
+  <!-- Text label -->
+  <text x="150" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Linen Blend Dress</text>
+</svg>

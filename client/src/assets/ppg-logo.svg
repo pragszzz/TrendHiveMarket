@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300" height="150" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main text -->
+  <g transform="translate(150, 75)">
+    <!-- Shadow for text -->
+    <text x="-135" y="13" font-family="Arial, sans-serif" font-size="42" font-weight="bold" text-anchor="start" fill="#000000" opacity="0.3">the</text>
+    <text x="-95" y="53" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="start" fill="#000000" opacity="0.3">POWERPUFF</text>
+    <text x="20" y="93" font-family="Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="start" fill="#000000" opacity="0.3">GIRLS</text>
+    
+    <!-- Pink text for "the" and "POWERPUFF" -->
+    <text x="-137" y="10" font-family="Arial, sans-serif" font-size="42" font-weight="bold" text-anchor="start" fill="#FF9ED2">the</text>
+    <text x="-97" y="50" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="start" fill="#FF9ED2">POWERPUFF</text>
+    
+    <!-- Blue text for "GIRLS" -->
+    <text x="18" y="90" font-family="Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="start" fill="#7BDEFF">GIRLS</text>
+    
+    <!-- Star -->
+    <polygon points="125,90 130,100 140,102 133,110 135,120 125,115 115,120 117,110 110,102 120,100" fill="#FFDE59" stroke="#333" stroke-width="1" />
+  </g>
+</svg>
