@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "wouter";
-import { Product, Wishlist } from "@shared/schema";
+import { Product, Wishlist } from "@shared/schema.ts";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogClose } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Star, StarHalf, Heart, X } from "lucide-react";

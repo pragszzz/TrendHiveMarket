@@ -1,5 +1,5 @@
 import { Link, useLocation } from "wouter";
-import { Product } from "@shared/schema";
+import { Product } from "@shared/schema.ts";
 import { Heart, Star, StarHalf } from "lucide-react";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { apiRequest, queryClient } from "@/lib/queryClient";

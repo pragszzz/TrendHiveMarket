@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLocation, useParams, Link } from "wouter";
 import { useQuery } from "@tanstack/react-query";
-import { Product } from "@shared/schema";
+import { Product } from "@shared/schema.ts";
 import ProductCard from "@/components/ProductCard";
 import QuickViewModal from "@/components/QuickViewModal";
 import Newsletter from "@/components/Newsletter";

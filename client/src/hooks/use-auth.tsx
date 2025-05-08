@@ -4,7 +4,7 @@ import {
   useMutation,
   UseMutationResult,
 } from "@tanstack/react-query";
-import { insertUserSchema, User as SelectUser, InsertUser } from "@shared/schema";
+import { insertUserSchema, User as SelectUser, InsertUser } from "@shared/schema.ts";
 import { getQueryFn, apiRequest, queryClient } from "../lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import { useLocation } from "wouter";
@@ -18,7 +18,10 @@ type AuthContextType = {
   registerMutation: UseMutationResult<SelectUser, Error, InsertUser>;
 };
 
-type LoginData = Pick<InsertUser, "username" | "password">;
+type LoginData = {
+  email: string;
+  password: string;
+};
 
 export const AuthContext = createContext<AuthContextType | null>(null);
 
@@ -44,7 +47,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       queryClient.setQueryData(["/api/user"], user);
       toast({
         title: "Login successful",
-        description: `Welcome back, ${user.username}!`,
+        description: `Welcome back, ${user.name}!`,
       });
       setLocation("/");
     },
@@ -66,7 +69,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       queryClient.setQueryData(["/api/user"], user);
       toast({
         title: "Registration successful",
-        description: `Welcome to TrendHive, ${user.username}!`,
+        description: `Welcome to TrendHive, ${user.name}!`,
       });
       setLocation("/");
     },

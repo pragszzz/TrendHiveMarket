@@ -1,8 +1,8 @@
 import session from "express-session";
 import createMemoryStore from "memorystore";
 import { log } from "./vite";
-import * as schema from "../shared/schema";
-import type { AppUser, AppProduct, AppCart, AppWishlist, AppOrder, AppReview } from "../shared/schema";
+import * as schema from "../client/shared/schema";
+import type { AppUser, AppProduct, AppCart, AppWishlist, AppOrder, AppReview } from "../client/shared/schema";
 import type { MemoryStore as ExpressMemoryStore } from 'express-session';
 
 // Fixed typescript session store issue

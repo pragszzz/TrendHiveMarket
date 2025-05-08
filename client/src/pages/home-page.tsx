@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "wouter";
-import { Product } from "@shared/schema";
+import { Product } from "@shared/schema.ts";
 import ProductCard from "@/components/ProductCard";
 import Newsletter from "@/components/Newsletter";
 import Features from "@/components/Features";

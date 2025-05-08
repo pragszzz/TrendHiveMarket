@@ -1,6 +1,6 @@
 import { useLocation } from "wouter";
 import { useQuery } from "@tanstack/react-query";
-import { Order } from "@shared/schema";
+import { Order } from "@shared/schema.ts";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400">
+  <!-- Structured Handbag -->
+  <rect x="70" y="150" width="160" height="120" rx="5" fill="#f8d3ff" stroke="#333" stroke-width="2"/>
+  
+  <!-- Handles -->
+  <path d="M100,150 C100,100 140,100 140,150" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  <path d="M160,150 C160,100 200,100 200,150" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Front pocket -->
+  <rect x="110" y="180" width="80" height="60" rx="3" fill="none" stroke="#333" stroke-width="1"/>
+  
+  <!-- Clasp/Lock -->
+  <circle cx="150" cy="170" r="5" fill="#ddd" stroke="#333" stroke-width="1"/>
+  <rect x="145" y="170" width="10" height="5" fill="#ddd" stroke="#333" stroke-width="1"/>
+  
+  <!-- Embellishments -->
+  <circle cx="90" cy="200" r="3" fill="#ddd"/>
+  <circle cx="90" cy="220" r="3" fill="#ddd"/>
+  <circle cx="210" cy="200" r="3" fill="#ddd"/>
+  <circle cx="210" cy="220" r="3" fill="#ddd"/>
+  
+  <!-- Strap (detachable) -->
+  <path d="M70,170 L50,190 L50,230 L70,250" fill="none" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M230,170 L250,190 L250,230 L230,250" fill="none" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Text label -->
+  <text x="150" y="320" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Structured Handbag</text>
+</svg>

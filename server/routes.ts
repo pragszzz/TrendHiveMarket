@@ -7,7 +7,7 @@ import {
   InsertCart, InsertOrder, 
   CartItem, OrderItem, 
   InsertReview, Product
-} from "@shared/schema";
+} from "@shared/schema.ts";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Setup authentication routes

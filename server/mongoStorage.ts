@@ -1,7 +1,7 @@
 import { User, Product, Cart, Wishlist, Order, Review } from "./mongo";
 import { log } from "./vite";
-import * as schema from "../shared/schema";
-import type { AppUser, AppProduct, AppCart, AppWishlist, AppOrder, AppReview } from "../shared/schema";
+import * as schema from "../client/shared/schema";
+import type { AppUser, AppProduct, AppCart, AppWishlist, AppOrder, AppReview } from "../client/shared/schema";
 import MongoStore from "connect-mongo";
 import type { IStorage } from "./storage";
 import mongoose from "mongoose";

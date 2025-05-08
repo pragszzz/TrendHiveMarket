@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-import { Product } from "@shared/schema";
+import { Product } from "@shared/schema.ts";
 import { storage } from "./storage";
 
 // Initialize OpenAI client
